@@ -1,3 +1,9 @@
+# Youtube App
+
+## lp-react-2020-minin
+Learning Project: React JS Quick Course 2020 by Vladilen Minin - https://youtu.be/xJZa2_aldDs
+Projects List: https://github.com/stijn-veren/projects-list
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,7 +74,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# Youtube App
-
-## lp-react-2020-minin
-Learning Project: React JS Quick Course 2020 by Vladilen Minin
