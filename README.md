@@ -1,8 +1,8 @@
 # Youtube App
 
-## lp-react-2020-minin
-Learning Project: React JS Quick Course 2020 by Vladilen Minin - https://youtu.be/xJZa2_aldDs
-Projects List: https://github.com/stijn-veren/projects-list
+## Learning Project
+**React JS Quick Course 2020 by Vladilen Minin:** https://youtu.be/xJZa2_aldDs \
+**Projects List:** https://github.com/stijn-veren/projects-list
 
 # Getting Started with Create React App
 
