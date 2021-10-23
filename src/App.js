@@ -31,7 +31,11 @@ function App() {
       <div className="wrapper">
         <h1>Todo List</h1>
 
-        <TodoList todos={todos} onToggle={toggleTodo} />
+        {todos.length ? (
+          <TodoList todos={todos} onToggle={toggleTodo} />
+        ) : (
+          <p>No Todos!</p>
+        )}
       </div>
     </Context.Provider>
   );
