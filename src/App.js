@@ -1,8 +1,8 @@
-import TodoList from "./Todo/TodoList";
+import TodoList from './Todo/TodoList';
 
 function App() {
   return (
-    <div>
+    <div className="wrapper">
       <h1>Todo List</h1>
 
       <TodoList />
