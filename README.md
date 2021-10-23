@@ -10,6 +10,8 @@
 {JSON} Placeholder: https://jsonplaceholder.typicode.com \
 Ajax Loader, Animated Icons, Live Background: https://loading.io
 
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
