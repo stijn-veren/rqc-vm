@@ -22,6 +22,7 @@ function TodoItem({ todo, index }) {
       <span>
         <input type="checkbox" style={styles.input} />
         <strong>{index + 1}</strong>
+        &nbsp;
         {todo.title}
       </span>
 
