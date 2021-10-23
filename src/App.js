@@ -3,7 +3,14 @@ import TodoList from './Todo/TodoList';
 import Context from './context';
 import Loader from './Loader';
 
-const AddTodo = React.lazy(() => import('./Todo/AddTodo'));
+const AddTodo = React.lazy(
+  () =>
+    new Promise((resolve) => {
+      setTimeout(() => {
+        resolve(import('./Todo/AddTodo'));
+      }, 3000);
+    })
+);
 
 function App() {
   const [todos, setTodos] = React.useState([]);
@@ -53,7 +60,7 @@ function App() {
     <Context.Provider value={{ removeTodo }}>
       <div className="wrapper">
         <h1>Todo List</h1>
-        <React.Suspense fallback={<p>Loading...</p>}>
+        <React.Suspense fallback={<Loader />}>
           <AddTodo onCreate={addTodo} />
         </React.Suspense>
 
