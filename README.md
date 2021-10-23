@@ -1,8 +1,14 @@
 # Youtube App
 
 ## Learning Project
+
 **React JS Quick Course 2020 by Vladilen Minin:** https://youtu.be/xJZa2_aldDs \
 **Projects List:** https://github.com/stijn-veren/projects-list
+
+## Resources
+
+{JSON} Placeholder: https://jsonplaceholder.typicode.com \
+Ajax Loader, Animated Icons, Live Background: https://loading.io
 
 # Getting Started with Create React App
 
