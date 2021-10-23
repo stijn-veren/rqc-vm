@@ -26,3 +26,7 @@ code {
   height: 19px;
   width: 19px;
 }
+
+.done {
+  text-decoration: line-through;
+}
