@@ -7,11 +7,15 @@ function App() {
     { id: 3, completed: false, title: 'Buy meat' },
   ];
 
+  function toggleTodo(id) {
+    console.log('todo id', id);
+  }
+
   return (
     <div className="wrapper">
       <h1>Todo List</h1>
 
-      <TodoList todos={todos} />
+      <TodoList todos={todos} onToggle={toggleTodo} />
     </div>
   );
 }
