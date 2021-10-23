@@ -25,7 +25,7 @@ function TodoItem({ todo, index }) {
         {todo.title}
       </span>
 
-      <button>&times;</button>
+      <button className="rm">&times;</button>
     </li>
   );
 }
