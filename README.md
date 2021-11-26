@@ -22,4 +22,7 @@
 {JSON} Placeholder:
 
 - https://jsonplaceholder.typicode.com
-  - Ajax Loader, Animated Icons, Live Background: https://loading.io
+
+Ajax Loader, Animated Icons, Live Background:
+
+- https://loading.io
